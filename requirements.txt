@@ -1,0 +1,12 @@
+Cython==0.29.21
+numpy==1.23.5
+pyrubberband==0.3.0
+essentia==2.1b6.dev765
+madmom @ git+https://github.com/CPJKU/madmom.git@0551aa8f48d71a367d92b5d3a347a0cf7cd97cc9
+moviepy==1.0.3
+pydub
+pillow
+librosa
+fire
+scenedetect
+opencv-python

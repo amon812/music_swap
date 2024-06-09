@@ -1,0 +1,62 @@
+{
+    "video":[
+        [
+            {
+                "stretch": true,
+                "file_path":"PATH TO VIDEO FILE",
+                "start_sec": 0,
+                "end_sec": -1,
+                "option": {
+                    "stretch_method":0,
+                    "use_once": false,
+                    "fadein" : 0,
+                    "fadeout" : 0,
+                    "fade_color": [255,255,255],
+                    "use_audio": false,
+                    "volume": 2.0,
+                    "speed":1.0,
+                    "scene_detection_threshold":50,
+                    "scene_detection_min_sec":2.0,
+                    "random_shots":false,
+                    "repeat_shots":false,
+                    "repeat_shots_range":[1,2],
+                    "fill_from_back":false
+                }
+            }
+        ]
+    ],
+    "audio":{
+        "file_path":"PATH TO NEW MUSIC FILE",
+        "start_sec": 0,
+        "end_sec": -1,
+        "fadein" : 3,
+        "fadeout" : 3,
+        "volume": 1.0,
+        "boundary":[
+            0
+        ]
+    },
+    "encode_option":{
+        "codec":"libx264",
+        "preset":"ultrafast",
+        "crf": 15
+    },
+    "resolution": [ -1, -1 ],
+    "base_speed": 1.0,
+    "generate_draft_option":{
+        "scene_detection_threshold":27,
+        "scene_detection_min_sec":2.0,
+        "stretch_method_1_for_loud_area":false,
+        "random_scenes":false,
+        "random_shots":false,
+        "follow_the_original_scene_order":true,
+        "no_skipping_and_follow_the_original_scene_order":false,
+        "no_reuse_of_scenes":true,
+        "last_shot_mode":true,
+        "last_shot_sec":8.0
+    },
+    "global_option":{
+        "extra_beat_mode":1,
+        "onset_limit_per_unit":2
+    }
+}

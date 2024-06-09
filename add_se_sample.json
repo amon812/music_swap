@@ -1,0 +1,23 @@
+{
+    "video_file_path": "VIDEO_PATH",
+    "sound_effect":[
+        {
+            "wav_file_or_dir_path":"WAV_PATH",
+            "start_sec": 30,
+            "end_sec": 60,
+            "on_every_beat":true,
+            "on_every_two_beat":false,
+            "once_per_file":true,
+            "volume":3.0
+        },
+        {
+            "wav_file_or_dir_path":"WAV_PATH2",
+            "start_sec": 20,
+            "end_sec": 20,
+            "on_every_beat":true,
+            "on_every_two_beat":false,
+            "once_per_file":true,
+            "volume":3.0
+        }
+    ]
+}
